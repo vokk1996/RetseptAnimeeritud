@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cherish&family=Dancing+Script:wght@700&display=swap');
+
+body {
+    background-color: green;
+}
+
+.pealkiri {
+    text-align: center;
+    color: yellow;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    animation: pealkiri;
+    animation-duration: 3s;
+    position: relative;
+}
+
+@keyframes pealkiri {
+    0% {top: -400px;}
+    100% {top: 0;}
+}
+
+.koostisosad {
+    color: pink;
+    width: 25%;
+    margin-left: 5%;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    animation: koostisosad;
+    position: relative;
+    animation-duration: 3s;
+}
+
+@keyframes koostisosad {
+    0% {left: -500px;}
+    100% {left: 0;}
+}
+
+#tabelinimi {
+    margin-left: 5%;
+    color: yellow;
+    width: min-content;
+    font-size: 30px;
+}
+
+#valmistamine {
+    color: yellow;
+    margin-left: 5%;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+#aluminetabel {
+    border: 3px solid black;
+    width: 30%;
+    margin-left: 5%;
+    font-size: 30px;
+    color: pink;
+    animation: aluminetabel;
+    opacity: 0;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes aluminetabel {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#pilt {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+th, td {
+    border: 3px solid black;
+}
+
+.footer {
+    margin-left: 5%;
+    font-size: 80px;
+    text-align: right;
+    color: yellow;
+    margin-top: 5%;
+}
+
+#link {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: yellow;
+}
